@@ -6,7 +6,9 @@ const cors = require('cors');
 
 const app=express();
 dotenv.config();
-app.use(cors());
+app.use(cors({
+    origin: 'https://mern-front-end-two.vercel.app'
+  }));
 app.use(express.json());
 connectmongo();
 
