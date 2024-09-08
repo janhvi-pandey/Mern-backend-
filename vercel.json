@@ -14,7 +14,7 @@
     ],
     "env": {
       "mongouri": "@mongouri",
-      "secretkey": "shiviika@23"
+      "secretkey": "@secretkey"
     }
   }
   
