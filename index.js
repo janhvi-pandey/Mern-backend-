@@ -7,7 +7,9 @@ const cors = require('cors');
 const app=express();
 dotenv.config();
 app.use(cors({
-    origin: 'https://mern-front-end-two.vercel.app'
+    origin: 'https://mern-front-end-two.vercel.app', // Replace with your frontend URL
+    methods: 'GET,POST,PUT,DELETE',
+    allowedHeaders: 'Content-Type,Authorization',
   }));
 app.use(express.json());
 connectmongo();
