@@ -11,10 +11,6 @@
         "src": "/(.*)",
         "dest": "/index.js"
       }
-    ],
-    "env": {
-      "mongouri": "@mongouri",
-      "secretkey": "@secretkey"
-    }
+    ]
   }
   
